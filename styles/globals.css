@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap');
+
+/* || RESET */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+input,
+button {
+	font: inherit;
+}
+
+/* || VARIABLES */
+:root {
+	/* FONTS */
+	--FF: "Sora", sans-serif;
+	--FS: clamp(1rem, 2.2vh, 1.5rem);
+}
+
+/* || UTILITY CLASSES */
+.nowrap {
+	white-space: nowrap;
+}
+.center {
+	text-align: center;
+}
+
+/* || GENERAL STYLES */
+body,
+main {
+	font-family: var(--FF);
+	font-size: var(--FS);
+	scroll-behavior: smooth;
+	background-color: #FFFBE4;
+	height: 100vh;
+	overflow: hidden;
+}

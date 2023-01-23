@@ -1,8 +1,8 @@
 import React, { useState, useEffect, createContext } from "react";
 import SpotifyWebApi from "spotify-web-api-node";
 import styles from "../styles/Discover.module.scss";
-import Header from "../components/commmon/Header";
-import SmallCardCarousel from "../components/commmon/SmallCardCarousel";
+import Header from "../components/common/Header"
+import SmallCardCarousel from "../components/common/SmallCardCarousel"
 
 export async function getServerSideProps(context) {
 	const releases = spotifyApi
